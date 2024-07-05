@@ -19,27 +19,37 @@ Sito web per un ristorante sushi, che permette agli utenti di esplorare vari pia
 - tzdata 2024.1
 
 ## Installation
+1. Clona il repository
 
-1. Assicurati di avere Python 3.x installato sul tuo sistema:
+```bash
+git clone https://github.com/luca-di-leo/Sito-Sushi.git
+```
+
+2. Spostati nella directory del progetto
+```bash
+cd Sito-Sushi
+```
+
+3. Assicurati di avere Python 3.x installato sul tuo sistema:
 
     ```bash
     python --version
     ```
 
-2. Crea e attiva un ambiente virtuale:
+4. Crea e attiva un ambiente virtuale:
 
     ```bash
     python -m venv env
     source env/bin/activate  
     ```
 
-3. Installa tutte le dipendenze:
+5. Installa tutte le dipendenze:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Esegui le migrazioni del database:
+6. Esegui le migrazioni del database:
 
     ```bash
     python manage.py migrate
